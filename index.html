@@ -1,16 +1,74 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Kuba Smorąg - Tech Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <style>
+        
+        .center-content {
+            text-align:center;
+            font-family: 'Roboto'; 
+        
+            
+        }
         .profile-pic {
-            display: block;
+            display:block; 
             margin-left: auto;
             margin-right: auto;
-            width: 50%;
+            border-radius:50%;
+            margin-top:60px;
+           
+            height:200px;
+            width:200px;
+        }
+        
+         h1 {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto';   
+            text-align:center;
+            color:#404040        
+        }
+        
+        
+        h3 {
+            color:#707070
+        }
+        
+        .links {
+            display:block;
+            margin-top:30px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .links a {
+            margin-top:30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            color:#707070;
+            text-decoration: none;
+        
+        }
+        
+        .links a:hover {
+            color:#A0A0A0;
         }
     </style>
 </head>
 <body>
-    <img src="profile_pic.jpg" class="profile-pic" />
+    <div class="center-content">
+        <h1 class="my-name" >kuba smorąg</h1>
+        <h3>software developer</h3>
+        <img src="http://github.com/qbaiprzyjaciele/qbaiprzyjaciele.github.io/blob/master/profile-pic.jpg?raw=true" class="profile-pic" /> 
+        <div class="links">
+            <a href="#">#projects</a>  
+            <a href="#">#resume</a>
+            <a href="#">#jvm</a>
+            <a href="#">#about me</a>
+        </div>
+    </div>
+    
 </body>
 </html>
