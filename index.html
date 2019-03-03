@@ -2,21 +2,54 @@
 <html>
 <head>
     <title>Kuba Smorąg - Tech Home Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <style>
         
+            .top-heading {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background-color: ghostwhite;
+                margin-top:0px;
+            }
+            
+            .profile-pic-section {
+                padding-top:60px;
+                background-color: black;
+                padding-bottom:30px;
+            }
+            
+            .navbar-section {
+                background-color: yellow;
+            }
+        
+            .hash {
+                
+            }
+        
+            body {
+                margin-top:0px;
+            }
+        
+            div {
+                margin:0;
+                padding:0;
+            }
+        
+        
         @media only screen and (max-width: 600px) {
+            
             .center-content {
                 text-align:center;
                 font-family: 'Roboto'; 
             }
+            
+            
             .profile-pic {
                 display:block; 
                 margin-left: auto;
                 margin-right: auto;
                 border-radius:50%;
-                margin-top:60px;
-
+                padding-top:60px;
                 height:300x;
                 width:300px;
             }
@@ -27,12 +60,14 @@
                 margin-right: auto;
                 font-family: 'Roboto';   
                 text-align:center;
-                color:#404040        
+                color:#404040;
+                margin:0;
+                padding:0;
             }
 
 
             h3 {
-                color:#707070
+                color:#707070;
             }
 
             .links {
@@ -46,13 +81,14 @@
                 margin-top:30px;
                 margin-left: 10px;
                 margin-right: 10px;
-                color:#707070;
+                color:#B7B7B7;
                 text-decoration: none;
+                text-decoration: bold;
 
             }
 
             .links a:hover {
-                color:#A0A0A0;
+                color:#D0D0D0;
             }     
         }
         
@@ -60,13 +96,14 @@
             .center-content {
                 text-align:center;
                 font-family: 'Roboto'; 
+                margin:0px;
             }
             .profile-pic {
                 display:block; 
                 margin-left: auto;
                 margin-right: auto;
                 border-radius:50%;
-                margin-top:60px;
+                margin-top:0px;
                 height:300px;
                 width:300px;
             }
@@ -79,12 +116,16 @@
                 text-align:center;
                 color:#404040;
                 font-size:66px;
+                 margin:0;
+                padding: 0;
             }
 
 
             h3 {
                 color:#707070;
                 font-size:32px;
+                margin:0;
+                padding: 0;
             }
 
             .links {
@@ -99,13 +140,14 @@
                 margin-top:30px;
                 margin-left: 10px;
                 margin-right: 10px;
-                color:#707070;
+                color:#B7B7B7;
                 text-decoration: none;
+                text-decoration: bold;
 
             }
 
             .links a:hover {
-                color:#A0A0A0;
+                color:#D0D0D0;
             }     
             
         }
@@ -120,7 +162,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 border-radius:50%;
-                margin-top:60px;
+                margin-top:0px;
 
                 height:200px;
                 width:200px;
@@ -140,6 +182,8 @@
             h3 {
                 color:#707070;
                 font-size:26px;
+                margin:0;
+                padding: 0;
             }
 
             .links {
@@ -153,14 +197,19 @@
                 margin-top:30px;
                 margin-left: 10px;
                 margin-right: 10px;
-                color:#707070;
+/*                color:#B7B7B7;*/
+/*                color:#1abc9c;*/
+                color:#2ecc71;
+/*                color:#98D9C2;*/
+/*                color:#87C1AD;*/
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 22px;
+                text-decoration: bold;
 
             }
 
             .links a:hover {
-                color:#A0A0A0;
+                color:#D0D0D0;
             }
             
         }         
@@ -169,15 +218,17 @@
     </style>
 </head>
 <body>
-    <div class="center-content">
-        <h1 class="my-name" >kuba smorąg</h1>
+    <div class="center-content top-heading">
+        <h1 >kuba<div style="display:inline;color:#909090" id="last-name"> smorąg</div></h1>
         <h3>software developer</h3>
+    </div>
+    <div class="center-content profile-pic-section">
         <img src="http://github.com/qbaiprzyjaciele/qbaiprzyjaciele.github.io/blob/master/profile-pic.jpg?raw=true" class="profile-pic" /> 
         <div class="links">
-            <a href="#">#projects</a>  
-            <a href="#">#resume</a>
-            <a href="#">#jvm</a>
-            <a href="#">#about me</a>
+            <a href="#"><b>#projects</b></a> 
+            <a href="#"><b>#resume</b></a> 
+            <a href="#"><b>#jvm</b></a> 
+            <a href="#"><b>#about me</b></a> 
         </div>
     </div>
     
